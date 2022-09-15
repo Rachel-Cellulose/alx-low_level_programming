@@ -1,10 +1,3 @@
-Task 7.txt
-Today
-11:51 AM
-
-Antony Bahati uploaded an item
-Text
-Task 7.txt
 #include <stdio.h>
 #include "main.h"
 
