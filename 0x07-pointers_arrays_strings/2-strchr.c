@@ -7,14 +7,13 @@
  *
  * Return: pointer to the first occurence of c in s
  */
-
 char *_strchr(char *s, char c)
 {
 	int i;
 
 	for (i = 0; *(s + i); i++)
 	{
-		if (*(s + i) == c
+		if (*(s + i) == c)
 			return (s + i);
 	}
 
