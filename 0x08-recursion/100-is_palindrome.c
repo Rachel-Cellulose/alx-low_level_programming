@@ -40,4 +40,4 @@ int is_palindrome(char *s)
 	if (len == 0 || *s != s[len - 1])
 		return (0);
 	return (is_palind_recursive(s, 0, len - 1));
-}	
+}
